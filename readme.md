@@ -24,3 +24,9 @@ rabbit -> 167.99.88.27
 
 channel name
     BET-SETTLEMENT
+
+--- starting rabbit mq server
+    docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4-management
+    
+    then create a channel under channels
+
